@@ -5,7 +5,7 @@ import './resume.css'
 function Resume() {
   return (
     <button className='resume downloadPDF'>
-      <a href={ResumePDF} download='Resume'>Download</a>
+      <a href={ResumePDF} download='Resume'>Download</a> 
     </button>
   )
 }

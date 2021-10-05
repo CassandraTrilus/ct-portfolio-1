@@ -1,0 +1,27 @@
+.project-intro h1 {
+  display: inline;
+  background: linear-gradient(to right, var(--orange), var(--purple));
+  background-clip: text;
+  word-wrap: break-word;
+  font-size: 8vmax;
+  color: transparent;
+}
+
+.project-intro img {
+  opacity: 0.3; 
+  position: absolute;
+  width: 15vmax;
+  top: 10rem;
+  right: 0rem;
+}
+
+.project-intro {
+  overflow-x: hidden;
+  position: relative;
+  height: 100vh;
+}
+
+.project-intro p {
+  font-weight: 200;
+  font-size: 2rem;
+}

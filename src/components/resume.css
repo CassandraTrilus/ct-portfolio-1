@@ -1,0 +1,14 @@
+.downloadPDF, .downloadPDF > a {
+  background-color: var(--teal);
+  text-decoration: none;
+  color: black;
+}
+
+.downloadPDF {
+  border: 0rem solid transparent;
+  border-radius: 2rem;
+  width: 8rem;
+  padding: .3em .8em;
+  font-size: 1.3rem;
+  color: black;
+}

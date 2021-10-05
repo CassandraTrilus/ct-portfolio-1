@@ -1,0 +1,14 @@
+.description {
+  font-weight: 300;
+  letter-spacing: .01rem;
+  padding: 0em 2em;
+  font-size: 1.3em;
+}
+
+.description.row p {
+  color: var(--text-grey)
+}
+
+.description_images img {
+  height: 1.8rem;
+}

@@ -1,0 +1,47 @@
+.projects_container {
+  display: flex;
+  flex-direction: column;
+  justify-content: space-around;
+  flex-wrap: wrap;
+  padding: 2em;
+}
+
+.projects_container .card {
+  margin: 1em;
+}
+
+.title-details {
+  font-weight: 400;
+  color: var(--teal);
+}
+
+.paragraph-details {
+  font-weight: 300;
+  font-size: 1rem;
+  color: var(--text-grey);
+}
+
+.button-link.btn.btn-dark {
+  border: 0.09em solid rgb(143, 143, 143);
+}
+
+.button-link.btn.source-teal {
+  background-color: var(--teal);
+}
+
+.additional_details {
+  color: var(--text-grey);
+  font-weight: 300;
+  letter-spacing: .01rem;
+  padding: 0em 2em;
+  font-size: 1.3em;
+}
+
+.card-text {
+  color: var(--text-grey);
+  font-weight: 300;
+}
+
+.card-title.h5 {
+  font-size: 1.5rem;
+}

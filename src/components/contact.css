@@ -1,0 +1,43 @@
+.contact h1 {
+  margin-top: 2.5em;
+  text-align: center;
+  display: inline;
+  background: var(--teal);
+  background-clip: text;
+  font-size: 6vmax;
+  color: transparent;
+}
+
+.contact {
+  padding: 3em;
+}
+
+.contact form {
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  margin: .6rem auto;
+  width: 30rem;
+}
+
+.contact input[name='name'],
+.contact input[name='email'],
+.contact textarea[name='message']{
+  color: black;
+  padding: 1em 1em;
+  margin: .8rem 0;
+  background-color: white;
+  border-radius: .4rem;
+  border: 0rem solid transparent;
+}
+
+.contact form input:last-child{
+  background-color: var(--teal);
+  border: 0rem solid transparent;
+  border-radius: 2rem;
+  width: 8rem;
+  padding: .3em .8em;
+  font-size: 1.3rem;
+  color: black;
+  margin: 2em;
+}

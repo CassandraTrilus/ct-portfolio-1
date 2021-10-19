@@ -60,7 +60,7 @@ function App() {
         img={kibblesRitz}
         sourceCode='https://github.com/CassandraTrilus/Kibbles-Ritz'
         link='https://kibbles-and-ritz.herokuapp.com/'
-        desc='This is the project we designed and developed for our capstone at Kenzie Academy. Kibbles & Ritz is a project designed for people who love to travel with their pets. Featuring personal profiles, favorites lists, and a Google Places integration, users can search for pet-friendly businesses on a live-updated map and filter by pet type and size. Users can save their favorites, see details and user reviews, and even submit their own reviews about their pet-friendly experiences. I acted as a developer and the design lead for this project as I came up with the concept for the group.'
+        desc='This is the project we designed and developed for our capstone at Kenzie Academy. Kibbles & Ritz is a project designed for people who love to travel with their pets. Featuring personal profiles, favorites lists, and a Google Places integration, users can search for pet-friendly businesses on a live-updated map and filter by pet type and size. Users can save their favorites, see details and user reviews, and even submit their own reviews about their pet-friendly experiences. I acted as a developer and the design lead for this project and I came up with the concept, the UI, and some of the feature designs for the group.'
       />
       </div>
 

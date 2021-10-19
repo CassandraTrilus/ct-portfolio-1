@@ -11,7 +11,7 @@ import Description from './components/Description'
 import Contact from './components/Contact'
 import Project from './components/Project'
 import connect4 from './assets/connect4.png'
-import kibblesRitz from './assets/kibbles-ritz.png'
+import kibblesRitz from './assets/kibblesRitz.png'
 import './App.css'
 
 function App() {

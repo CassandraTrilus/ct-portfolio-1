@@ -11,6 +11,7 @@ import Description from './components/Description'
 import Contact from './components/Contact'
 import Project from './components/Project'
 import connect4 from './assets/connect4.png'
+import kibblesRitz from './assets/kibbles-ritz.png'
 import './App.css'
 
 function App() {
@@ -54,7 +55,15 @@ function App() {
           desc='This was an application built 
                 in a team environment while at Kenzie Academy. I took on the Product Owner role as well as heavily contributing to the code base. I led standups and managed our task backlog during our sprint. Through effective communication and collaboration, we were able to come up with a product to be proud of.'
         />
+        <Project
+        title='Kibbles & Ritz'
+        img={kibblesRitz}
+        sourceCode='https://github.com/CassandraTrilus/Kibbles-Ritz'
+        link='https://kibbles-and-ritz.herokuapp.com/'
+        desc='This is the project we designed and developed for our capstone at Kenzie Academy. Kibbles & Ritz is a project designed for people who love to travel with their pets. Featuring personal profiles, favorites lists, and a Google Places integration, users can search for pet-friendly businesses on a live-updated map and filter by pet type and size. Users can save their favorites, see details and user reviews, and even submit their own reviews about their pet-friendly experiences. I acted as a developer and the design lead for this project as I came up with the concept for the group.'
+      />
       </div>
+
       <div>
         <Intro
           name='Download resume!'

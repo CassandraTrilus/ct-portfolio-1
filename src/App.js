@@ -12,6 +12,7 @@ import Contact from './components/Contact'
 import Project from './components/Project'
 import connect4 from './assets/connect4.png'
 import kibblesRitz from './assets/kibblesRitz.png'
+import KenzieCart from './assets/KenzieCart.png'
 import './App.css'
 
 function App() {
@@ -62,6 +63,16 @@ function App() {
         link='https://mern-pet-travel-app.herokuapp.com/'
         desc='This is the project we designed and developed for our capstone at Kenzie Academy. Kibbles & Ritz is a project designed for people who love to travel with their pets. Featuring personal profiles, favorites lists, and a Google Places integration, users can search for pet-friendly businesses on a live-updated map and filter by pet type and size. Users can save their favorites, see details and user reviews, and even submit their own reviews about their pet-friendly experiences. I acted as a developer and the design lead for this project and I came up with the concept, the UI, and some of the feature designs for the group.'
       />
+      <Project
+      title='KenzieCart'
+      img={KenzieCart}
+      sourceCode='https://github.com/CassandraTrilus/KenzieCart'
+      desc='Added numerous features to a shopping cart application to improve user experience and usability:
+      - Created a new object schema for coupons, added an Express endpoint to add coupon codes to the database, added another endpoint to verify the existence of the coupon code, created a user input component to allow them to apply the promo code, and created a reducer action that applied the discount to all items in the cart
+      - Created a custom hook, reducer, and context to allow the user to set the currency (switch between USD ($) and Euro (€)), and have the price values update accordingly
+      - Added localstorage to the shopping cart so that the state of the cart would be saved across browser sessions
+      - Updated the database to store order information and modified the UI to display an order ID number upon order confirmation.'
+    />
       </div>
 
       <div>
